@@ -1,79 +1,79 @@
-Quotes Scraper
+#Quotes Scraper
 
 This project demonstrates a professional web scraping workflow using Python. It extracts paginated quote data from a website and exports structured results into a CSV file.
 
-Project Overview
+#Project Overview
 
 The scraper:
 
-Navigates through multiple pages automatically
+-Navigates through multiple pages automatically
 
-Extracts quote text
+-Extracts quote text
 
-Extracts author names
+-Extracts author names
 
-Extracts associated tags
+-Extracts associated tags
 
-Handles pagination dynamically
+-Handles pagination dynamically
 
-Saves clean structured data into a CSV file
+-Saves clean structured data into a CSV file
 
-Technologies Used
+#Technologies Used
 
-Python
+-Python
 
-Requests
+-Requests
 
-BeautifulSoup
+-BeautifulSoup
 
-Pandas
+-Pandas
 
-Features
+#Features
 
-Automatic pagination handling
+-Automatic pagination handling
 
-Clean data extraction
+-Clean data extraction
 
-Structured data storage
+-Structured data storage
 
-CSV export for further analysis
+-CSV export for further analysis
 
-Basic delay handling to avoid overloading the server
+-Basic delay handling to avoid overloading the server
 
-How It Works
+#How It Works
 
-Sends HTTP request to each page
+-Sends HTTP request to each page
 
-Parses HTML using BeautifulSoup
+-Parses HTML using BeautifulSoup
 
-Extracts quote, author, and tags
+-Extracts quote, author, and tags
 
-Stores data in a list
+-Stores data in a list
 
-Converts data into a Pandas DataFrame
+-Converts data into a Pandas DataFrame
 
-Exports the results to quotes_data.csv
+-Exports the results to quotes_data.csv
 
-Output
+#Output
 
-The generated CSV file contains the following columns:
+#The generated CSV file contains the following columns:
 
-Quote
+-Quote
 
-Author
+-Author
 
-Tags
+-Tags
 
 Learning Outcomes
 
-This project demonstrates:
+#This project demonstrates:
 
-Pagination logic
+-Pagination logic
 
-Data extraction from structured HTML
+-Data extraction from structured HTML
 
-Loop control with break conditions
+-Loop control with break conditions
 
-Data cleaning and export
+-Data cleaning and export
 
-Real-world scraping workflow
+-Real-world scraping workflow
